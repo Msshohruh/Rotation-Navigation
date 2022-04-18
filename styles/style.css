@@ -15,19 +15,17 @@ body{
     font-size: 16px;
     color: #000;
     overflow-x: hidden;
-}
-main {
-    flex-grow: 1;
-}
+}   
 .loading-container {
     height: 100vh;
     width: 100vw;
-    position: absolute;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
     top: 0;
     left: 0;
+    bottom: 0;
     background-color: rgb(129, 129, 129);
     z-index: 1000;
     transition: opacity 1s linear;
@@ -195,12 +193,4 @@ main {
 }
 .sitenav-link i{
     margin-right: 10px;
-}
-.fas {
-}
-.fa-home {
-}
-.fa-user-alt {
-}
-.fa-envelope {
 }
